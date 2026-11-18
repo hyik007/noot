@@ -1,0 +1,15 @@
+{
+  "name": "noot-cli",
+  "version": "1.0.0",
+  "description": "A penguin that lives in your terminal. Cheers your wins, screams NOOT NOOT at your failures, celebrates your commits.",
+  "type": "module",
+  "bin": { "noot": "bin/noot.js" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["cli", "terminal", "penguin", "pingu", "noot", "fun", "shell", "git-hook", "ascii-art", "developer-experience"],
+  "author": "hyik007",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/hyik007/noot.git" },
+  "homepage": "https://github.com/hyik007/noot#readme",
+  "engines": { "node": ">=18" }
+}
